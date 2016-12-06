@@ -20,7 +20,7 @@ function quadEquation(a, b, c) {
        } else if (test < 0) {
            return 'Doesn\'t have valid results' ;
        } 
-   } else if (!isNaN(a) && !isNaN(b) && !isNaN(c)){
+   } else if (!isNaN(a) && !isNaN(b) && !isNaN(c) && a != 0){
        var D = b * b - 4 * a * c;
         if (D > 0){
             // has two results 
